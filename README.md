@@ -12,34 +12,37 @@ For RN Version < 0.60 (no autolinking)
 
 For RN Version > 0.60 (with autolinking) nothing needs to be done other than installing the package.
 
+Add `pod 'RNCardConnectReactLibrary', :path => '../node_modules/react-native-card-connect'` in your pod file for ios
+
 ## Usage
 ```javascript
 import CardConnect from 'react-native-card-connect';
 import moment from 'moment';
 
-async tokenizeCard() {
+  async tokenizeCard() {
 
-  try {
+    try {
 
-    const siteId = "fts";
-    const cardNumber = "42424242424242";
-    const expiryDate = moment('12/22', 'MM/YY').toISOString();
-    const cVc = "123";
+      const siteId = "fts";
+      const cardNumber = "42424242424242";
+      const expiryDate = moment('12/22', 'MM/YY').toISOString();
+      const cVc = "123";
 
-    CardConnect.setupConsumerApiEndpoint(site_id + ".cardconnect.com:443");
+      CardConnect.setupConsumerApiEndpoint(siteId + ".cardconnect.com:443");
 
-    const token = await CardConnect.getCardToken(
-      cardNumber,
-      expiryDate
-      cVc
-    );
+      const token = await CardConnect.getCardToken(
+        cardNumber,
+        expiryDate,
+        cVc
+      );
 
-    console.log(token)
+      console.log(token)
 
-  } catch (error) {
+    } catch (error) {
 
-    console.log(error.toString());
+      console.log(error.toString());
 
+    }
   }
 ```
 
