@@ -1,0 +1,13 @@
+# Test files
+_test
+android/build
+# package directories
+node_modules
+package-lock.json
+jspm_packages
+example
+# Mac OS Files
+*.DS_Store
+.AppleDouble
+.LSOverride
+._*

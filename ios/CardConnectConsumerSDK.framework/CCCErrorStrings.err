@@ -1,0 +1,11 @@
+100    ERR_MSG_AUDIO_PERMISSON_DENIED    Audio permission denied.
+101    ERR_MSG_SWIPE_CARD    EMV not supported, please remove the card and swipe.
+102    ERR_MSG_INSERT_CARD    Chip card swiped, please insert card.
+103    ERR_MSG_CANCELED    Canceled transaction.
+104    ERR_MSG_TIMEOUT    Timeout
+105    ERR_MSG_CONNECTION_ERROR    Failed to connect to device.
+106    ERR_MSG_UNSUPORTED_MODE    This device does not support this mode.
+107    ERR_MSG_BAD_READ    Card read error.
+108    ERR_MSG_CONFIGURATION_FAILURE    A configuration error occurred. Please contact support.
+109    ERR_MSG_OTHER_AUDIO_PLAYING    Unable to connect to device. Audio playback or microphone in use.
+500    ERR_MSG_UNKNOWN    An unknown error occurred.
