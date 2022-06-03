@@ -9,7 +9,7 @@
     "moment": "^2.24.0",
     "react": "16.9.0",
     "react-native": "0.61.5",
-    "react-native-card-connect": "git+https://github.com/brij-dev/react-native-card-connect.git"
+    "react-native-card-connect": "git+https://github.com/BigRoomStudios/react-native-card-connect.git#install-gson-library"
   },
   "devDependencies": {
     "@babel/core": "^7.8.3",
