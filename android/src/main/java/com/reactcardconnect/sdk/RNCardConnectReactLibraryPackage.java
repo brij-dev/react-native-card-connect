@@ -1,5 +1,5 @@
 
-package com.reactcardconnect.sdk;
+package com.reactbolt.sdk;
 
 import java.util.Arrays;
 import java.util.Collections;

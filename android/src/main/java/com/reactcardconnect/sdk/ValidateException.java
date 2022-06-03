@@ -1,4 +1,4 @@
-package com.reactcardconnect.sdk;
+package com.reactbolt.sdk;
 
 public class ValidateException extends RuntimeException {
     public ValidateException(String message){
