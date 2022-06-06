@@ -21,7 +21,7 @@ public class RNBoltReactLibraryModule extends ReactContextBaseJavaModule {
 
     @Override
     public String getName() {
-        return "BoltSDK";
+        return "CardConnect";
     }
 
     @ReactMethod
