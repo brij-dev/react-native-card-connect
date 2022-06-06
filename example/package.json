@@ -8,7 +8,7 @@
   "dependencies": {
     "react": "16.9.0",
     "react-native": "0.61.5",
-    "react-native-card-connect": "git+https://github.com/BigRoomStudios/react-native-card-connect.git#05291d92d59d074c5ac027cd6e6dde509443d3c9"
+    "react-native-card-connect": "git+https://github.com/BigRoomStudios/react-native-card-connect.git#60577e1a370c165cc8364a7ba9032ff6dbd6e430"
   },
   "devDependencies": {
     "@babel/core": "^7.8.3",
