@@ -6,10 +6,9 @@
     "start": "react-native start"
   },
   "dependencies": {
-    "moment": "^2.24.0",
     "react": "16.9.0",
     "react-native": "0.61.5",
-    "react-native-card-connect": "git+https://github.com/BigRoomStudios/react-native-card-connect.git#upgrade-bolt-sdk"
+    "react-native-card-connect": "git+https://github.com/BigRoomStudios/react-native-card-connect.git#05291d92d59d074c5ac027cd6e6dde509443d3c9"
   },
   "devDependencies": {
     "@babel/core": "^7.8.3",

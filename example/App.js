@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import CardConnect from 'react-native-card-connect';
-import moment from 'moment';
 
 export default class App extends Component {
   state = {
@@ -15,12 +14,12 @@ export default class App extends Component {
 
     try {
 
-      const siteId = "fts";
+      const siteId = "fts-uat";
       const cardNumber = "4111111111111111";
-      const expiryDate = moment('12/22', 'MM/YY').toISOString();
+      const expiryDate = '12/22';
       const cVc = "123";
 
-      CardConnect.setupConsumerApiEndpoint(siteId + ".cardconnect.com:443");
+      CardConnect.setupConsumerApiEndpoint(`https://${siteId}.cardconnect.com`);
 
       const token = await CardConnect.getCardToken(
         cardNumber,
